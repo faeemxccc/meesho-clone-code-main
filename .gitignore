@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore bun lockfile to prevent Render or CI from auto-detecting Bun
+bun.lockb
